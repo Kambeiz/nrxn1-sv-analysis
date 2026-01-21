@@ -1,0 +1,52 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.8.0
+
+# Bioinformatics
+pysam>=0.19.0
+cyvcf2>=0.30.0
+pybedtools>=0.9.0
+biopython>=1.79
+pyensembl>=2.2.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+shap>=0.41.0
+
+# Visualization
+plotly>=5.8.0
+dash>=2.4.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Data processing
+dask>=2022.5.0
+pyarrow>=8.0.0
+
+# Configuration & CLI
+pyyaml>=6.0
+click>=8.1.0
+typer>=0.4.0
+
+# Cloud integration
+boto3>=1.24.0
+google-cloud-storage>=2.3.0
+
+# Workflow management
+snakemake>=7.8.0
+
+# API & reporting
+fastapi>=0.78.0
+jinja2>=3.1.0
+
+# Testing
+pytest>=7.1.0
+pytest-cov>=3.0.0
+
+# Development
+black>=22.3.0
+flake8>=4.0.0
+mypy>=0.960

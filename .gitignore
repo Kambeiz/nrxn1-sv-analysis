@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+logs/
+*.log
+
+# Data files (too large for git)
+data/raw/
+data/reference/*.fa
+data/reference/*.fasta
+data/reference/*.vcf
+data/reference/*.vcf.gz
+data/reference/*.gtf
+data/reference/*.gff
+*.bam
+*.bam.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bed
+
+# Model files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Results
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Personal documents
+*.pdf
+*.doc
+*.docx
+DEBBAH_Nagi_s_Resume_Jan_26.pdf

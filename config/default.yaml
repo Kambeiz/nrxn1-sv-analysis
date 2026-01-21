@@ -1,0 +1,65 @@
+# NRXN1 Structural Variant Analysis Pipeline Configuration
+
+# Gene information
+gene:
+  name: "NRXN1"
+  chromosome: "2"
+  start: 50145643
+  end: 51259674
+  strand: "+"
+  genome_build: "GRCh38"
+  
+# Reference files
+reference:
+  genome_fasta: "data/reference/GRCh38.fa"
+  gene_annotation: "data/reference/gencode.v38.annotation.gtf"
+  gnomad_sv: "data/reference/gnomad_v2.1_sv.sites.vcf.gz"
+  clinvar: "data/reference/clinvar.vcf.gz"
+
+# CNV detection parameters
+cnv:
+  min_size: 1000
+  max_size: 10000000
+  min_quality: 20
+  callers:
+    - "manta"
+    - "delly"
+    - "cnvnator"
+  consensus_threshold: 2
+
+# Annotation settings
+annotation:
+  vep_cache: "data/reference/vep_cache"
+  cadd_scores: "data/reference/cadd_scores.tsv.gz"
+  include_frequencies: true
+  include_conservation: true
+
+# Machine learning
+ml:
+  model_type: "xgboost"
+  features:
+    - "variant_size"
+    - "exons_affected"
+    - "isoform_impact"
+    - "population_frequency"
+    - "conservation_score"
+    - "breakpoint_context"
+  train_test_split: 0.2
+  cross_validation_folds: 5
+  
+# Output settings
+output:
+  format: ["vcf", "tsv", "json"]
+  include_report: true
+  report_template: "templates/clinical_report.html"
+
+# Cloud settings
+cloud:
+  provider: "aws"  # aws, gcp, or local
+  bucket: "nrxn1-analysis-results"
+  region: "us-east-1"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/pipeline.log"
