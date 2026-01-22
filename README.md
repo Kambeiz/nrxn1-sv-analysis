@@ -46,8 +46,8 @@ This pipeline provides:
 ## Installation
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/nrxn1-sv-analysis.git
+# Clone the repository
+git clone https://github.com/Kambeiz/nrxn1-sv-analysis.git
 cd nrxn1-sv-analysis
 
 # Create virtual environment
@@ -138,11 +138,11 @@ sbatch scripts/slurm_submit.sh
 ## Citation
 
 ```bibtex
-@software{nrxn1_sv_analysis,
+@software{nrxn1_multiomics,
   title={NRXN1 Structural Variant Analysis Pipeline},
   author={Nagi Debbah},
   year={2025},
-  url={https://github.com/yourusername/nrxn1-sv-analysis}
+  url={https://github.com/Kambeiz/nrxn1-sv-analysis}
 }
 ```
 
