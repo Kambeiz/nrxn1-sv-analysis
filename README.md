@@ -116,12 +116,6 @@ gcloud lifesciences pipelines run \
     --inputs BAM=gs://bucket/sample.bam
 ```
 
-### Compute Canada
-```bash
-# SLURM submission
-sbatch scripts/slurm_submit.sh
-```
-
 ## Data Sources
 
 - **gnomAD-SV**: Population structural variant frequencies
