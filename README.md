@@ -15,7 +15,7 @@ This pipeline provides:
 - **CNV calling and annotation** with clinical interpretation
 - **Pathogenicity prediction** using machine learning
 - **Population frequency analysis** integration
-- **Cloud-ready workflows** (AWS, Google Cloud, Compute Canada)
+- **Cloud-ready workflows** (AWS, Google Cloud) (WIP)
 
 ## Features
 
