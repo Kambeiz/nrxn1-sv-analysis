@@ -15,11 +15,9 @@ This pipeline provides:
 - **CNV calling and annotation** with clinical interpretation
 - **Pathogenicity prediction** using machine learning
 - **Population frequency analysis** integration
-- **Cloud-ready workflows** (AWS, Google Cloud) 
+- **Cloud-ready workflows (WIP)** (AWS, Google Cloud) 
 
 ## Features
-
-(Cloud ready workflow is WIP)
 
 ### 🧬 Variant Detection
 - SNV/Indel calling in NRXN1 region
