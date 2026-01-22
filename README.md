@@ -1,6 +1,7 @@
 # NRXN1 Structural Variant Analysis Pipeline
 
-A comprehensive bioinformatics pipeline for detecting, annotating, and analyzing structural variants in the **NRXN1** gene, associated with autism spectrum disorder, schizophrenia, and neurodevelopmental conditions.
+This repository goal is to provide a comprehensive bioinformatics pipeline for detecting, annotating, and analyzing structural variants in the **NRXN1** gene, associated with autism spectrum disorder, schizophrenia, and neurodevelopmental conditions.
+A lot is still Work In Progress and will be slowly updated through time. 
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
